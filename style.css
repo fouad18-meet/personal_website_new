@@ -49,3 +49,26 @@ body{
 	background-size: cover;
 
 }
+
+#paratext {
+	font-size: 20px;
+	color: blue;
+}
+
+.buffer {
+	margin-top: 25px;
+}
+.title {
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+.restaurant {
+	display: inline-block;
+}
+
+.img-responsive {
+	max-width: 100%; 
+	height: auto;
+	display:block;
+}
