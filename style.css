@@ -68,7 +68,12 @@ body{
 }
 
 .img-responsive {
-	max-width: 100%; 
-	height: auto;
-	display:block;
+	max-width: 50%; 
+	height: 50;
+	display: block;
+}
+.img-responsive6 {
+	max-width: 35%;
+	height: 35;
+	display: block;
 }
