@@ -38,6 +38,7 @@ body{
 }
 #nav1 ul li:hover{
 	background: #1684bb;
+	transition: all ease-in-out 0.45s;
 }
 #active{
 	background: #1684bb;
@@ -47,13 +48,11 @@ body{
 	height: 600px;
 	background: url(yummyfood1.jpeg); no-repeat;
 	background-size: cover;
+	text-align: center;
 
 }
 
-#paratext {
-	font-size: 20px;
-	color: blue;
-}
+
 
 .buffer {
 	margin-top: 25px;
@@ -76,4 +75,66 @@ body{
 	max-width: 35%;
 	height: 35;
 	display: block;
+}
+#main-content-restaurants{
+	width: 100%;
+	height: 600px;
+	background: url(pageBackground.jpg); no-repeat;
+	background-size: cover;
+	
+
+}
+.container-fluid {
+	color: white;
+}
+
+#form{
+	width: 50%;
+	height: 600px;
+	background: #2b7092;
+	color: white;
+	line-height: 35px;
+	float: left;
+}
+form{
+	margin-left: 100px;
+}
+#name{
+	width: 300px;
+	height: 30px;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+#com{
+	width: 300px;
+	height: 150px;
+	border-radius: 5px;
+	padding: 7px;
+}
+#sub{
+	width: 100px;
+	background: #164054;
+	height: 50px;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+}
+#extr{
+	width: 50%;
+	float: right;
+	text-align: center;
+	line-height: 30px;
+}
+#about{
+	margin: 60px;
+	width: 100%;
+	height: 600px;
+	color: white;
+	
+}
+
+#bgabout{
+	background: url(restaurant2.jpg); no-repeat;
+	background-size: cover;
 }
