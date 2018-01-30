@@ -1,0 +1,156 @@
+@charset "utf-8";
+
+body{
+	font-family: 'Raleway' , sans-serif;
+}
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+#nav1{
+	width: 100%;
+	height: 70px;
+	line-height: 70px;
+	background: #2895cc;
+}
+#nav1 h1{
+	float: left;
+	font-size: 2.5em;
+	margin-left: 15px;
+}
+#nav1 h1 a{
+	text-decoration: none;
+	color: white;
+}
+#nav1 ul{
+	float: right;
+	margin-right: 15px;
+}
+#nav1 ul li{
+	display: inline-block;
+	list-style-type: none;
+}
+#nav1 ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 25px;
+}
+#nav1 ul li:hover{
+	background: #1684bb;
+	transition: all ease-in-out 0.45s;
+}
+#active{
+	background: #1684bb;
+}
+#main-content{
+	width: 100%;
+	height: 600px;
+	background: url(yummyfood1.jpeg); no-repeat;
+	background-size: cover;
+	text-align: center;
+
+}
+
+
+
+.buffer {
+	margin-top: 25px;
+}
+.title {
+	margin-bottom: 25px;
+	font-size: 50px;
+}
+
+.restaurant {
+	display: inline-block;
+}
+
+.img-responsive {
+	max-width: 50%; 
+	height: 50;
+	display: block;
+}
+.img-responsive6 {
+	max-width: 35%;
+	height: 35;
+	display: block;
+}
+#main-content-restaurants{
+	width: 100%;
+	height: 600px;
+	background: url(cutboard.jpg); no-repeat;
+	background-size: cover;
+	
+
+}
+.container-fluid {
+	color: white;
+}
+
+#form{
+	width: 50%;
+	height: 600px;
+	background: #2b7092;
+	color: white;
+	line-height: 35px;
+	float: left;
+}
+form{
+	margin-left: 100px;
+}
+#name{
+	width: 300px;
+	height: 30px;
+	padding: 6px;
+	border-radius: 5px;
+	border: 1px solid #CCC;
+}
+#com{
+	width: 300px;
+	height: 150px;
+	border-radius: 5px;
+	padding: 7px;
+}
+#sub{
+	width: 100px;
+	background: #164054;
+	height: 50px;
+	border: 0px;
+	color: white;
+	font-size: 18px;
+}
+#extr{
+	width: 50%;
+	float: right;
+	text-align: center;
+	line-height: 30px;
+}
+#about{
+	margin: 60px;
+	width: 100%;
+	height: 600px;
+	color: white;
+	
+	
+}
+
+#bgabout{
+	background: url(restaurant2.jpg); no-repeat;
+	background-size: cover;
+}
+#body {font-family: "Times New Roman", Georgia, Serif;}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+
+
+#font1 {
+	font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+}
+
