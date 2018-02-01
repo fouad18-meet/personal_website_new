@@ -3,7 +3,7 @@
 <head>
 <title> Restaurant Advisor </title>
 
-<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="{{url_for('static', filename='style.css')}}">
 <meta charset="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
@@ -16,13 +16,13 @@
 <!-- "h2 This website aims to help people to find the most suitble restaurant according to their needs." -->
 
 <div id="nav1">
-	<h1><a href="index.html">Restaurant Advisor</a></h1>
+	<h1><a href="{{url_for('main')}}">Restaurant Advisor</a></h1>
 	<ul>
-		<li><a href="index.html">Home</a></li>
-		<li id="active"><a href="restaurants.html">Restaurants</a></li>
+		<li><a href="{{url_for('main')}}">Home</a></li>
+		<li id="active"><a href="{{url_for('restaurants')}}">Restaurants</a></li>
 		<!--<li><a href="contact.html">Contact</a></li>-->
-		<li><a href="about.html">About</a></li>
-		<li><a href="contact.html">Contact</a></li>
+		<li><a href="{{url_for('about')}}">About</a></li>
+		<li><a href="{{url_for('contact')}}">Contact</a></li>
 	</ul>
 </div>
 <div>
@@ -37,7 +37,7 @@
 <div class="col-md-4 restaurant">
 <center>
 <h1>Cielo</h1>
-<img src="pasta1.jpg" class="img-responsive">
+<img src="{{url_for('static', filename='pasta1.jpg')}}" class="img-responsive">
 <br>
 <p>Cielo restaurant in Jerusalem has been owned and run for the past 14 years by Chef Adi Cohen. The menu at Cielo is Italian and includes ,among others, meat, fish seafood and pasta in its menu. The menu at Cielo is rich, precise and varied as each day ten special dishes are prepared only for that same day. The restaurant is designed in a clean and meticulous manner. The background music is appropriate to the name and character of the restaurant; it is classical and pleasant and gives the loyal customers a peaceful and relaxed atmosphere.
  
@@ -56,7 +56,7 @@
 <div class="col-md-4">
 <center>
 <h1>Machneyuda</h1>
-<img src="fishsalad1.jpg" class="img-responsive">
+<img src="{{url_for('static', filename='fishsalad1.jpg')}}" class="img-responsive">
 <br>
 <br>
 <p>bustling and lively atmosphere and food inspired by the Machane Yehuda Market, from kebab with tahini-gurt, pesto, harissa and pickled lemon to “Uri’s Mum’s Basbousa” cake with tahini ice-cream, whipped cream, fruit and date honey. And then, of course, one unforgettable polenta.  This restaurant was the inspiration for two of the most-talked about restaurants in London, The Palomar and The Barbary. Both are known for bringing this ‘Machneyuda’ genre of energetic Mediterranean and Middle Eastern cuisine to the city.
@@ -75,7 +75,7 @@
 <div class="col-md-4">
 <center>
 <h1>Azura</h1>
-<img src="salad.jpg" class="img-responsive">
+<img src="{{url_for('static', filename='salad.jpg')}}" class="img-responsive">
 <br>
 <p>If you are looking for traditional Middle Eastern food, though, the best of the bunch may be Azura — a family-run institution in the Iraqi market famous for its Turkish-inspired delicacies that are slow-cooked to perfection atop kerosene burners. From old-school vegetable stalls, bakeries and boutique wine and cheese bars to fish and chip or falafel stands and sit-down restaurants of every style and price range, the now gentrified market’s dozens of eateries present the widest assortment of culinary options in the city.</p>
 <h3>Check out the rating of the restaurant</h3>
@@ -94,7 +94,7 @@
 <div class="col-md-6">
 <center>
 <h1>Chakra</h1>
-<img src="europeanfood.jpg" class="img-responsive6">
+<img src="{{url_for('static', filename='europeanfood.jpg')}}" class="img-responsive6">
 <br>
 <p>Chakra has remained one of the leading restaurants in the capital, and one of the most loved dinner places there. Through dishes like beetroot tortellini in Parmesan butter, kebabs with tahini and fire-roasted vegetables, or gnocchi with lamb and beef-butter sauce, the kitchen reaches over the walls of Jerusalem into the Mediterranean Sea all the way to classic Italy.
 </p>
@@ -112,7 +112,7 @@
 <div class="col-md-6">
 <center>
 <h1>Piccolino</h1>
-<img src="pizza1.jpg" class="img-responsive6">
+<img src="{{url_for('static', filename='pizza1.jpg')}}" class="img-responsive6">
 <br>
 <p>Piccolino restaurant offers a delicious dairy Italian menu. Music is the theme of the menu. Start your morning with Buongiorno breakfast. Choose from the Do Re Mi Shakshuka, the Pavaroti full breakfast or Tarantella breakfast. For the Overture, start with a choice of antipasti including Piccolino's exceptional boutique cheeses, roasted vegetables or a Mezze of pickled sardines with lemon. 
 </p>
