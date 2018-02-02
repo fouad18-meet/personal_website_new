@@ -27,7 +27,8 @@ db.create_all()
 
 @app.route('/')
 def main():
-	return render_template('index.html')
+    
+    return render_template('index.html')
 
 
 @app.route('/contact', methods=['POST', 'GET'])
@@ -41,7 +42,7 @@ def contact():
         newUser = Users(name=name, email=email, comment=comment)
         db.session.add(newUser)
         db.session.commit()
-	return render_template('contact.html')
+        return render_template('contact.html')
 
 
 
