@@ -17,7 +17,7 @@ class Users(db.Model):
     comment = db.Column('comment', db.Unicode)
  
  
-db.create_all()
+
 
 
 
