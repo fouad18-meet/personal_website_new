@@ -1,11 +1,12 @@
 from flask import Flask, render_template, request , redirect, url_for, session
+from flask.ext.heroku import Heroku
 app = Flask(__name__)
 app.secret_key="this is my project"
 
 from flask_sqlalchemy import SQLAlchemy
  
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:////tmp/website.db'
- 
+heroku = Heroku(app) 
 db = SQLAlchemy(app)
  
 class Users(db.Model):
